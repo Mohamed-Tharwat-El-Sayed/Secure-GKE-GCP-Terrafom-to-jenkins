@@ -1,5 +1,0 @@
-- hosts: all
-  become: yes
-  tasks:
-    - name: deploy jenkins files
-      command: kubectl apply -f /home/dep-ser.yaml
