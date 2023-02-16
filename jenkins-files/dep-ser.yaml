@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: tharwat3551/jenkins
+          image: tharwat3551/jenkins #jenkins/jenkins:latest with some dependinses
           ports:
             - containerPort: 8080
             - containerPort: 50000
