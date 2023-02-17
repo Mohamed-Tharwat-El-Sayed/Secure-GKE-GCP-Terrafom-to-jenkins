@@ -73,6 +73,8 @@ This project contains:
       `PasswordAuthentication yes`
       service restart sshd
       ```
+      ![1](https://user-images.githubusercontent.com/88733748/219640730-284d5cc3-34c7-4719-8000-2cc0efb4be58.png)
+      
  * 2-  you can login to the "ansible-vm" VM using SSH  then:
     
     *  through  my script or manually
@@ -87,6 +89,7 @@ This project contains:
       vi /home/ansible.yaml `write my ansible file`
       ansible-playbook /home/ansible.yaml
       ```
+      ![8-ansible-playbook-run](https://user-images.githubusercontent.com/88733748/219640982-fea97e38-fd84-497b-a713-3098f9ff28a9.png)
       
         that will deploy in jenkins-vm:
         * jenkins Deployment and Exopse it with loadbalancer service in namespace jenkins
@@ -96,5 +99,6 @@ This project contains:
          ```
          kubectl exec -n jenkins -it svc/jenkins-service -c jenkins -- /bin/cat /var/jenkins_home/secrets/initialAdminPassword && echo
          ```
+         ![9-jenkins-on-browser](https://user-images.githubusercontent.com/88733748/219641255-28a3cf20-8d4f-4ea0-ac1c-f6604dc9d5d1.png)
 ---
 Now, you can access jenkins form [HERE](http://35.187.162.20:8080/login?from=%2F) 
