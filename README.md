@@ -47,6 +47,8 @@ This project contains:
     * Private Kubernetes cluster in "restricted-sub" with 1 worker nodes.
 
     you can change some variables values in "terraform/dev.tfvars"
+    
+   ![terraform](https://user-images.githubusercontent.com/88733748/219639530-aa041846-8a49-48fc-bc11-8fd931c1c034.png)
    
 ### Deploy
 * After the infrastructure got built, 
