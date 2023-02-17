@@ -73,7 +73,7 @@ This project contains:
       ```
  * 2-  you can login to the "ansible-vm" VM using SSH  then:
     
-    *  through  installation.sh or manually (change service account and project in script)
+    *  through  my script or manually
           * install ansible
           
     * In ansible-vm
