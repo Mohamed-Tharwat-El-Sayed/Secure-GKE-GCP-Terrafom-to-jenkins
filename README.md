@@ -47,8 +47,7 @@ This project contains:
     * Private Kubernetes cluster in "restricted-sub" with 1 worker nodes.
 
     you can change some variables values in "terraform/dev.tfvars"
-    
-      `
+   
 ### Deploy
 * After the infrastructure got built, 
  * 1- now you can login to the "jenkins-vm" VM using SSH ( copy output of terraform ) then:
