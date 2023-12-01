@@ -1,6 +1,4 @@
 # Secure-GKE-GCP-Terrafom-to-jenkins
-
-## by ` Mohamed Tharwat El_Sayed `
 ## Project Info.
 
 This project contains:
